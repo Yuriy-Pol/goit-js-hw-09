@@ -90,9 +90,6 @@ const galleryMarkup = images.reduce(
 
 galleryContainer.innerHTML = galleryMarkup;
 
-var lightbox = new SimpleLightbox('.gallery a', {
-  /* options */
-});
 let gallery = new SimpleLightbox('.gallery a', {
   captionDelay: 250,
   captionsData: 'alt',
